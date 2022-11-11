@@ -74,9 +74,9 @@ This is just an example using default ports, please set rules according to your 
 `sudo ufw allow 9090`
 
 ## Open RPC (default: 26657) 
-Open RPC to your specific local machine's IP address to connect and interact with your node remoately. This rule will need to be upated whenever your local IP changes. 
+Open RPC to your specific local machine's IP address to connect and interact with your node remotely. This rule will need to be upated whenever your local IP changes. 
   
-`sudo ufw allow from youripaddress to any port 26657`  
+`sudo ufw allow from [youripaddress] to any port 26657`  
 `sudo ufw enable`
 
 ## Confirm with UFW that your custom ssh port is open
